@@ -148,10 +148,14 @@ class ChatService:
             self.req_model = "o3-mini-low"
         elif "o3-mini" in self.origin_model:
             self.req_model = "o3-mini"
+        elif "o3-deep-research" in self.origin_model:
+            self.req_model = "o3-deep-research"
         elif "o3-pro" in self.origin_model:
             self.req_model = "o3-pro"
         elif "o3" in self.origin_model:
             self.req_model = "o3"
+        elif "o4-mini-deep-research" in self.origin_model:
+            self.req_model = "o4-mini-deep-research"
         elif "o4-mini" in self.origin_model:
             self.req_model = "o4-mini"
         elif "o1-preview" in self.origin_model:
@@ -160,10 +164,28 @@ class ChatService:
             self.req_model = "o1-pro"
         elif "o1-mini" in self.origin_model:
             self.req_model = "o1-mini"
+        elif "gpt-5.2-codex" in self.origin_model:
+            self.req_model = "gpt-5.2-codex"
+        elif "gpt-5.2-pro" in self.origin_model:
+            self.req_model = "gpt-5.2-pro"
         elif "gpt-5.2" in self.origin_model:
             self.req_model = "gpt-5.2"
+        elif "gpt-5.1-codex-max" in self.origin_model:
+            self.req_model = "gpt-5.1-codex-max"
+        elif "gpt-5.1-codex-mini" in self.origin_model:
+            self.req_model = "gpt-5.1-codex-mini"
+        elif "gpt-5.1-codex" in self.origin_model:
+            self.req_model = "gpt-5.1-codex"
         elif "gpt-5.1" in self.origin_model:
             self.req_model = "gpt-5.1"
+        elif "gpt-5-codex" in self.origin_model:
+            self.req_model = "gpt-5-codex"
+        elif "gpt-5-pro" in self.origin_model:
+            self.req_model = "gpt-5-pro"
+        elif "gpt-5-mini" in self.origin_model:
+            self.req_model = "gpt-5-mini"
+        elif "gpt-5-nano" in self.origin_model:
+            self.req_model = "gpt-5-nano"
         elif "gpt-5" in self.origin_model:
             self.req_model = "gpt-5"
         elif "o1" in self.origin_model:
@@ -178,6 +200,8 @@ class ChatService:
             self.req_model = "gpt-4o"
         elif "gpt-4.1-mini" in self.origin_model:
             self.req_model = "gpt-4.1-mini"
+        elif "gpt-4.1-nano" in self.origin_model:
+            self.req_model = "gpt-4.1-nano"
         elif "gpt-4.1" in self.origin_model:
             self.req_model = "gpt-4.1"
         elif "gpt-4-mobile" in self.origin_model:
